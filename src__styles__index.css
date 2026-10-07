@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: #75ABF4; font-family: Nunito, system-ui, sans-serif; color: #1F2A44; overflow-x: hidden; -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+:focus-visible { outline: 3px solid #1F2A44; outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
